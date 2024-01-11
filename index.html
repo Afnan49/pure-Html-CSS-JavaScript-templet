@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- start options box -->
+    <div class="option-box">
+      <div class="icon-container">
+        <i class="fa-solid fa-gear fa-spin option-icon"></i>
+      </div>
+      <div class="option-container">
+        <div class="options">
+          <h2>color</h2>
+          <ul class="color-list">
+            <li class="active" data-color="#b24202"></li>
+            <li data-color="#297272"></li>
+            <li data-color="#6d6875"></li>
+            <li data-color="#9e6752"></li>
+            <li data-color="#01757a"></li>
+          </ul>
+        </div>
+        <div class="options">
+          <h4>Random Backround</h4>
+          <div class="random-background">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">NO</span>
+          </div>
+        </div>
+        <div class="options">
+          <h4>Show Bullets</h4>
+          <div class="show-bullets">
+            <span class="yes active" data-bullets="block">Show</span>
+            <span class="no" data-bullets="none">Hide</span>
+          </div>
+        </div>
+        <div class="options">
+          <h4>Mode Option</h4>
+          <div class="mode-option">
+            <span class="yes active" data-mode="light">Light</span>
+            <span class="no" data-mode="dark">Dark</span>
+          </div>
+        </div>
+        <button class="reset-option">Reset Options</button>
+      </div>
+    </div>
+    <!-- end options box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+      <div class="bullets" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullets" data-section=".Our-best-sales">
+        <div class="tooltip">Our best sales</div>
+      </div>
+      <div class="bullets" data-section=".our-products">
+        <div class="tooltip">Latest Products</div>
+      </div>
+      <div class="bullets" data-section=".descount">
+        <div class="tooltip">Our Best Offers</div>
+      </div>
+      <div class="bullets" data-section=".ts">
+        <div class="tooltip">testimonials</div>
+      </div>
+    </div>
+    <!-- end nav bullets -->
+    <!-- start landing page -->
+    <div id="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <h1>SIXTEEN<span>CLOTHING</span></h1>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="" class="active">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>BEST OFFER</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          pariatur
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us section -->
+    <div class="container">
+      <div class="about-us">
+        <h2>About Sixteen Clothing</h2>
+        <div class="about-us-content">
+          <div class="info-box">
+            <h4>Looking for the best products?</h4>
+            <p>
+              <span>This template </span>is free to use for your business
+              websites. However, you have no permission to redistribute the
+              downloadable ZIP file on any template<br />
+              collection website.
+              <span>Contact us</span> for more info.
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Consectetur an adipisicing elit</li>
+              <li>It aquecorporis nulla aspernatur</li>
+              <li>Corporis, omnis doloremque</li>
+              <li>Non cum id reprehenderit</li>
+            </ul>
+            <a href="#">read more</a>
+          </div>
+          <div class="img-box">
+            <img src="./image/feature-image.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about us section -->
+    <!-- start Our best sales section -->
+    <div class="Our-best-sales">
+      <div class="container">
+        <h2>Our best sales</h2>
+        <div class="Our-best-sales-content">
+          <div class="Our-best-sales-box">
+            <div class="product">
+              <img src="./image/product_01.jpg" alt="product1" />
+            </div>
+            <div class="product-progress">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="Our-best-sales-box">
+            <div class="product">
+              <img src="./image/product_02.jpg" alt="product2" />
+            </div>
+            <div class="product-progress">
+              <span data-progress="70%"></span>
+            </div>
+          </div>
+          <div class="Our-best-sales-box">
+            <div class="product">
+              <img src="./image/product_03.jpg" alt="product3" />
+            </div>
+            <div class="product-progress">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+          <div class="Our-best-sales-box">
+            <div class="product">
+              <img src="./image/product_04.jpg" alt="product4" />
+            </div>
+            <div class="product-progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Our best sales section -->
+    <!-- start product  section -->
+    <div class="container">
+      <div class="our-products">
+        <div class="header">
+          <h2>Latest Products</h2>
+          <p>view all products></p>
+        </div>
+        <div class="products">
+          <div class="product-box" data-group="group1">
+            <img src="./image/product_01.jpg" alt="product1" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 25.75</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (24)</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-box" data-group="group2">
+            <img src="./image/product_02.jpg" alt="product2" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 30.25</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (21)</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-box" data-group="group3">
+            <img src="./image/product_03.jpg" alt="product3" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 20.45</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (36)</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-box" data-group="group4">
+            <img src="./image/product_04.jpg" alt="product4" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 15.25</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (48)</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-box" data-group="group5">
+            <img src="./image/product_05.jpg" alt="product5" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 12.50</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (16)</div>
+              </div>
+            </div>
+          </div>
+          <div class="product-box" data-group="group6">
+            <img src="./image/product_06.jpg" alt="product6" />
+            <div class="content">
+              <div class="head">
+                <div class="title">
+                  <a>Title goes here</a>
+                </div>
+                <div class="price">
+                  <h6>$ 22.50</h6>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Magnam rerum deleniti, beatae.
+                </p>
+              </div>
+              <div class="rate">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="reviews">Reviews (32)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end product  section -->
+    <!-- start descount  section -->
+    <div class="descount">
+      <div class="container">
+        <h2>Our Best Offers</h2>
+        <div class="descount-content">
+          <div class="descount-title"><i class="fa-solid fa-percent"></i></div>
+          <div class="descount-date">
+            <i class="fa-solid fa-stopwatch-20"></i>
+          </div>
+          <div class="descount-details">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <div class="left">
+            <div class="product">
+              <img src="/image/product_01.jpg" alt="product1" />
+              <div class="offer">
+                <span class="price">$ 25.75</span>
+                <span class="price-after"
+                  ><i class="fa-solid fa-tags"></i>$ 20.25</span
+                >
+              </div>
+              <div class="offer-date">
+                <span data-day="4"></span>
+              </div>
+              <div class="offer-details">
+                <span
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Error voluptates consequatur tenetur est porro adipisci,
+                  illo.</span
+                >
+              </div>
+            </div>
+            <div class="product">
+              <img src="/image/product_02.jpg" alt="product2" />
+              <div class="offer">
+                <span class="price">$ 30.25</span>
+                <span class="price-after"
+                  ><i class="fa-solid fa-tags"></i>$ 25</span
+                >
+              </div>
+              <div class="offer-date">
+                <span data-day="5"></span>
+              </div>
+              <div class="offer-details">
+                <span
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Error voluptates consequatur tenetur est porro adipisci,
+                  illo.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="product">
+              <img src="/image/product_03.jpg" alt="product3" />
+              <div class="offer">
+                <span class="price">$ 20.45</span>
+                <span class="price-after"
+                  ><i class="fa-solid fa-tags"></i>$ 15.25</span
+                >
+              </div>
+              <div class="offer-date">
+                <span data-day="10"></span>
+              </div>
+              <div class="offer-details">
+                <span
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Error voluptates consequatur tenetur est porro adipisci,
+                  illo.</span
+                >
+              </div>
+            </div>
+            <div class="product">
+              <img src="/image/product_04.jpg" alt="product4" />
+              <div class="offer">
+                <span class="price">$ 15.25</span>
+                <span class="price-after"
+                  ><i class="fa-solid fa-tags"></i>$ 12.75</span
+                >
+              </div>
+              <div class="offer-date">
+                <span data-day="7"></span>
+              </div>
+              <div class="offer-details">
+                <span
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Error voluptates consequatur tenetur est porro adipisci,
+                  illo.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end descount  section -->
+    <!-- start testimonials  section -->
+    <div class="ts">
+      <div class="container">
+        <h2>testimonials</h2>
+        <div class="ts-content">
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_02.jpg" alt="person" />
+              <h4>Afnan Mahmoud</h4>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_01.jpg" alt="person" />
+              <h4>Ahmed Ali</h4>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_03.jpg" alt="person" />
+              <h4>Mohamed Mahmoud</h4>
+            </div>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+
+        <div class="ts-content">
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_04.jpg" alt="person" />
+              <h4>Asmaa Mahmoud</h4>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_05.jpg" alt="person" />
+              <h4>Alaa Ali</h4>
+            </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Iam very happy with the product its amazing, recieve it very fast
+              and the price was amazing
+            </p>
+            <div class="person-info">
+              <img src="/image/team_06.jpg" alt="person" />
+              <h4>marsa Mahmoud</h4>
+            </div>
+          </div>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <!-- end testimonials  section -->
+    <!-- start contact us  section -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="your name" name="username" />
+            <input type="text" placeholder="your phone" name="phone" />
+            <input type="email" placeholder="your email" name="email" />
+            <input type="text" placeholder="subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="your message"></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end contact us section -->
+    <script src="./js/master.js"></script>
+  </body>
+</html>
