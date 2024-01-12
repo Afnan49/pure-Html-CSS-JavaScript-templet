@@ -154,13 +154,13 @@ body {
 .nav-bullets .bullets .tooltip::before {
   content: "";
   border-style: solid;
-  border-width: 14px;
+  border-width: 13px;
   border-color: transparent transparent transparent var(--main-color);
   height: 0;
   width: 0;
   position: absolute;
   right: -26px;
-  top: 0;
+  top: 0px;
 }
 /* end nav bullets */
 /* start landing page */
@@ -980,6 +980,14 @@ body {
   }
 }
 /* end contact us  sectionn */
+/* start footer  sectionn */
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+/* end footer   sectionn */
 /* start grid system */
 @media (min-width: 576px) {
   .container {
